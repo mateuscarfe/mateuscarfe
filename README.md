@@ -1,16 +1,20 @@
-## Hi there 👋
-
-<!--
-**mateuscarfe/mateuscarfe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```swift
+let mateuscarfe = Developer(
+    name: "Mateus Ferreira",
+    role: "Computer Engineer",
+    languages: [
+        Language("Portuguese", proficiency: 5),
+        Language("English", proficiency: 4)
+    ],
+    technologies: [
+        Technology("JavaScript", level: .skillful),
+        Technology("Python", level: .skilled),
+        Technology("Swift", level: .beginner)
+    ],
+    tools: ["Visual Studio Code", "Xcode", "Warp"],
+    databases: ["PostgreSQL", "MongoDB"],
+    deployments: ["Docker", "DigitalOcean"],
+    operatingSystems: ["macOS", "Linux"],
+    currentlyLearning: ["SwiftUI", "React"]
+)
+```
